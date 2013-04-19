@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8433739616BA84970036B0E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8433739516BA84970036B0E8 /* Cocoa.framework */; };
+		843373A016BA84970036B0E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8433739E16BA84970036B0E8 /* InfoPlist.strings */; };
+		843373A216BA84970036B0E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843373A116BA84970036B0E8 /* main.m */; };
+		843373A616BA84970036B0E8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 843373A416BA84970036B0E8 /* Credits.rtf */; };
+		843373A916BA84970036B0E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843373A816BA84970036B0E8 /* AppDelegate.m */; };
+		843373AC16BA84980036B0E8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843373AA16BA84980036B0E8 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8433739116BA84970036B0E8 /* QuickWindowLoginHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickWindowLoginHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8433739516BA84970036B0E8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8433739816BA84970036B0E8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8433739916BA84970036B0E8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8433739A16BA84970036B0E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8433739D16BA84970036B0E8 /* QuickWindowLoginHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickWindowLoginHelper-Info.plist"; sourceTree = "<group>"; };
+		8433739F16BA84970036B0E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		843373A116BA84970036B0E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		843373A316BA84970036B0E8 /* QuickWindowLoginHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickWindowLoginHelper-Prefix.pch"; sourceTree = "<group>"; };
+		843373A516BA84970036B0E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		843373A716BA84970036B0E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		843373A816BA84970036B0E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		843373AB16BA84980036B0E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8433738E16BA84970036B0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8433739616BA84970036B0E8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8433738616BA84970036B0E8 = {
+			isa = PBXGroup;
+			children = (
+				8433739B16BA84970036B0E8 /* QuickWindowLoginHelper */,
+				8433739416BA84970036B0E8 /* Frameworks */,
+				8433739216BA84970036B0E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8433739216BA84970036B0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8433739116BA84970036B0E8 /* QuickWindowLoginHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8433739416BA84970036B0E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8433739516BA84970036B0E8 /* Cocoa.framework */,
+				8433739716BA84970036B0E8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8433739716BA84970036B0E8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8433739816BA84970036B0E8 /* AppKit.framework */,
+				8433739916BA84970036B0E8 /* CoreData.framework */,
+				8433739A16BA84970036B0E8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8433739B16BA84970036B0E8 /* QuickWindowLoginHelper */ = {
+			isa = PBXGroup;
+			children = (
+				843373A716BA84970036B0E8 /* AppDelegate.h */,
+				843373A816BA84970036B0E8 /* AppDelegate.m */,
+				843373AA16BA84980036B0E8 /* MainMenu.xib */,
+				8433739C16BA84970036B0E8 /* Supporting Files */,
+			);
+			path = QuickWindowLoginHelper;
+			sourceTree = "<group>";
+		};
+		8433739C16BA84970036B0E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8433739D16BA84970036B0E8 /* QuickWindowLoginHelper-Info.plist */,
+				8433739E16BA84970036B0E8 /* InfoPlist.strings */,
+				843373A116BA84970036B0E8 /* main.m */,
+				843373A316BA84970036B0E8 /* QuickWindowLoginHelper-Prefix.pch */,
+				843373A416BA84970036B0E8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8433739016BA84970036B0E8 /* QuickWindowLoginHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843373AF16BA84980036B0E8 /* Build configuration list for PBXNativeTarget "QuickWindowLoginHelper" */;
+			buildPhases = (
+				8433738D16BA84970036B0E8 /* Sources */,
+				8433738E16BA84970036B0E8 /* Frameworks */,
+				8433738F16BA84970036B0E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickWindowLoginHelper;
+			productName = QuickWindowLoginHelper;
+			productReference = 8433739116BA84970036B0E8 /* QuickWindowLoginHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8433738816BA84970036B0E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Penny;
+			};
+			buildConfigurationList = 8433738B16BA84970036B0E8 /* Build configuration list for PBXProject "QuickWindowLoginHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8433738616BA84970036B0E8;
+			productRefGroup = 8433739216BA84970036B0E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8433739016BA84970036B0E8 /* QuickWindowLoginHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8433738F16BA84970036B0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843373A016BA84970036B0E8 /* InfoPlist.strings in Resources */,
+				843373A616BA84970036B0E8 /* Credits.rtf in Resources */,
+				843373AC16BA84980036B0E8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8433738D16BA84970036B0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843373A216BA84970036B0E8 /* main.m in Sources */,
+				843373A916BA84970036B0E8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8433739E16BA84970036B0E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8433739F16BA84970036B0E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		843373A416BA84970036B0E8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843373A516BA84970036B0E8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		843373AA16BA84980036B0E8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843373AB16BA84980036B0E8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843373AD16BA84980036B0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		843373AE16BA84980036B0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		843373B016BA84980036B0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickWindowLoginHelper/QuickWindowLoginHelper-Prefix.pch";
+				INFOPLIST_FILE = "QuickWindowLoginHelper/QuickWindowLoginHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		843373B116BA84980036B0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickWindowLoginHelper/QuickWindowLoginHelper-Prefix.pch";
+				INFOPLIST_FILE = "QuickWindowLoginHelper/QuickWindowLoginHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8433738B16BA84970036B0E8 /* Build configuration list for PBXProject "QuickWindowLoginHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843373AD16BA84980036B0E8 /* Debug */,
+				843373AE16BA84980036B0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843373AF16BA84980036B0E8 /* Build configuration list for PBXNativeTarget "QuickWindowLoginHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843373B016BA84980036B0E8 /* Debug */,
+				843373B116BA84980036B0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8433738816BA84970036B0E8 /* Project object */;
+}
